@@ -150,7 +150,7 @@ geom_point(mapping=aes(x=TotalSteps, y=Calories), color="red") +
   geom_smooth(mapping=aes(x=TotalSteps, y=Calories)) +
   labs(title="The Relationship Between Total Steps and Calories", x="Total Steps", y="Calories Burned (kcal)")
 ```
-![enter image description here](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/steps_calories.png)
+![Steps and Calories graph](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/steps_calories.png)
 
 The graph shows that there is a positive correlation between total number of steps and calories burned. The higher the step counts, the more calories burned.
 
@@ -163,7 +163,7 @@ ggplot(data=daily_activity) +
   labs(title="The Relationship Between Very Active Minutes and Calories", x="Very Active Minutes", y="Calories Burned (kcal)")
 ```
 
-![enter image description here](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/veryActive_kcal.png)
+![Very Active Minutes and Calories graph](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/veryActive_kcal.png)
 
 ```
 ggplot(data=daily_activity) + 
@@ -171,14 +171,14 @@ ggplot(data=daily_activity) +
   geom_smooth(mapping=aes(x=FairlyActiveMinutes, y=Calories)) +
   labs(title="The Relationship Between Failry Active Minutes and Calories", x="Failry Active Minutes", y="Calories Burned (kcal)")
 ```
-![enter image description here](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/fairlyActive_kcal.png)
+![Fairly Active Minutes and Calories graph](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/fairlyActive_kcal.png)
 ```
 ggplot(data=daily_activity) + 
   geom_point(mapping=aes(x=LightlyActiveMinutes, y=Calories), color="orange") +
   geom_smooth(mapping=aes(x=LightlyActiveMinutes, y=Calories)) +
   labs(title="The Relationship Between Lightly Active Minutes and Calories", x="Lightly Active Minutes", y="Calories Burned (kcal)")
 ```
-![enter image description here](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/lightlyActive_kcal.png)
+![Lightly Active Minutes and Calories graph](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/lightlyActive_kcal.png)
 
 The graphs show that Very Active Minutes are positively correlated with calories burned. But Lightly Active Minutes can burn more calories per day, possibly due to it having longer duration than Very Active Minutes. As for Fairly Active Minutes, there are hardly any correlation with calories burned.
 
@@ -188,7 +188,7 @@ ggplot(data=daily_activity) +
   geom_smooth(mapping=aes(x=TotalDistance, y=Calories)) +
   labs(title="The Relationship Between Total Distance and Calories", x="Total Distance", y="Calories Burned (kcal)")
 ```
-![enter image description here](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/distance_kcal.png)
+![Distance and Calories graph](https://5828bf1588b644eeb30acfd954d4cd8c.app.posit.cloud/file_show?path=/cloud/project/distance_kcal.png)
 
 We can clearly see that the longer the distance walked, the more calories burned.
 
